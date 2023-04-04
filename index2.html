@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Place an order</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/style2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="form-title">Place an Order</h1>
+      <form action="index3.html">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="firstName">First Name</label>
+            <input type="text"
+                    id="firstName"
+                    name="firstName"
+                    placeholder="Enter First Name"/>
+          </div>
+          <div class="user-input-box">
+            <label for="username">Last name</label>
+            <input type="text"
+                    id="Lat name"
+                    name="username"
+                    placeholder="Enter Last name"/>
+          </div>
+          <div class="user-input-box">
+            <label for="email">Email</label>
+            <input type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter Email"/>
+          </div>
+          <div class="user-input-box">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="text"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    placeholder="Enter Phone Number"/>
+          </div>
+          <div class="user-input-box">
+            <label for="Address">Address</label>
+            <input type="Address"
+                    id="Address"
+                    name="Address"
+                    placeholder="Enter Address"/>
+                
+            </div>
+
+            <!--ORDER DETAILS -->
+            
+        <fieldset>
+            <legend>Order Details</legend>
+            <div class="order">
+            <select name="size" >
+              <option>Select Coffee Size</option>
+              <option value="1">Small</option>
+              <option value="2">Medium</option>
+              <option value="3">Large</option>
+              </select>
+        
+            </select>
+            <select name="Quantity" >
+            <option >Select Quantity</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              
+            </select>
+           <label>Delivery Date:</label><input type="date" name="date" />
+            <label>Delivery Time:</label><input type="time" name="time" />
+             <select name="payment">
+              <option>Select Payment Option</option>
+              <option value="1">UPI Payment</option>
+              <option value="3">Net Banking</option>
+              <option value="4">Credit/Debit Card</option>
+              <option value="4">Cash on Delivery</option>
+            </select>
+          </fieldset>
+            </div>
+            
+            <div>
+                 <fieldset>
+                <legend>Choose your coffee</legend>
+                  <input type="checkbox" name="Coffee" value="1" /> Classic Coffee Espresso
+                  <input type="checkbox" name="Coffee" value="2" /> Cappuccino
+                  <input type="checkbox" name="Coffee" value="3" /> Quard Shot Espresso
+                  <input type="checkbox" name="Coffee" value="4" /> Espresso Macchiato
+                  <input type="checkbox" name="Coffee" value="5" /> Regular Latte
+                  <input type="checkbox" name="Coffee" value="6" /> Espresso Con Panna
+                  <input type="checkbox" name="Coffee" value="7" /> Flat White
+                  <input type="checkbox" name="Coffee" value="8" /> Mocha latte
+                  <input type="checkbox" name="Coffee" value="9" /> Americano
+              </fieldset>
+              <br><br>
+              
+              <!--SPECIAL INSTRUCTIONS -->
+              
+              <fieldset>
+                <legend>Special Instructions</legend>
+                <textarea name="instructions" rows="4" cols="125"></textarea>
+              </fieldset>
+              </div>
+        
+        <div class="form-submit-btn">
+          <input type="submit"  value="Place your order">
+        </class=>
+        <div class="reset">
+           <input type="reset" value="Start Over">
+        </div>
+      </div>
+    </div>
+    </form>
+  </body>
+</html>
